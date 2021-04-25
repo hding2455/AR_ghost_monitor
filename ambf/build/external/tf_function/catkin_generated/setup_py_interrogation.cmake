@@ -1,0 +1,7 @@
+set(tf_function_SETUP_PY_SETUP_MODULE "distutils.core")
+set(tf_function_SETUP_PY_VERSION "0.0.0")
+set(tf_function_SETUP_PY_SCRIPTS "")
+set(tf_function_SETUP_PY_PACKAGES "transformations")
+set(tf_function_SETUP_PY_PACKAGE_DIRS "scripts/transformations")
+set(tf_function_SETUP_PY_MODULES "")
+set(tf_function_SETUP_PY_MODULE_DIRS "")

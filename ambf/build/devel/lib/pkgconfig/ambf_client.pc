@@ -1,0 +1,8 @@
+prefix=/home/hding15/Desktop/ambf/build/devel
+
+Name: ambf_client
+Description: Description of ambf_client
+Version: 0.0.0
+Cflags: -I/home/hding15/Desktop/ambf/ambf_ros_modules/ambf_client/include
+Libs: -L${prefix}/lib -lambf_client_cpp
+Requires: ambf_msgs message_runtime

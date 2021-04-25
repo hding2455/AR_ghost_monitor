@@ -1,0 +1,2 @@
+time shock_fl_effort shock_fr_effort
+3 10 10 #forward

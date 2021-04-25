@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/hding15/ar_ws/devel -DCMAKE_INSTALL_PREFIX=/home/hding15/ar_ws/install -G Unix Makefiles

@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: ambf_comm
+Description: Description of ambf_comm
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lambf_comm -lambf_obj -lambf_world
+Requires: ambf_msgs message_runtime

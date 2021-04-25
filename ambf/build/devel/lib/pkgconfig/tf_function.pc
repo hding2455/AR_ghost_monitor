@@ -1,0 +1,8 @@
+prefix=/home/hding15/Desktop/ambf/build/devel
+
+Name: tf_function
+Description: Description of tf_function
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

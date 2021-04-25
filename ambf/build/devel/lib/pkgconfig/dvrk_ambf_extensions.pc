@@ -1,0 +1,8 @@
+prefix=/home/hding15/Desktop/ambf/build/devel
+
+Name: dvrk_ambf_extensions
+Description: Description of dvrk_ambf_extensions
+Version: 0.0.0
+Cflags: -I/home/hding15/Desktop/ambf/build/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime
