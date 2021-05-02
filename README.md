@@ -44,3 +44,9 @@ You need to calibrate your camera by putting a marker in front of the camera and
     python monitor_command.py
 Then input the pre-defined command file name and watch the video_viewer to see whether those commands are proper to excute.
 Input accept if the command is acceptable otherwise, input discard to give up those commands.
+
+### Video Demo
+Here is a video demo for running the whole project.
+
+[![Video Demo](img/Picture1.png)](https://www.youtube.com/watch?v=_Va9uHuElIw)
+
