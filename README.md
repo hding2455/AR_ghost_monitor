@@ -50,3 +50,34 @@ Here is a video demo for running the whole project.
 
 [![Video Demo](img/Picture1.png)](https://www.youtube.com/watch?v=_Va9uHuElIw)
 
+
+## Custormize your own robot
+### Simulation
+please refer to https://github.com/WPI-AIM/ambf to custormize your own robot or choose the desired robot for running in simulation.
+### Command
+create a new class in monitor_command.py, which is a child class of the controller and define your own simulator_init, real_robot_init, read_control_file, run_simulator, back_init_state_simulator, run_real_robot, update_init_state functions.
+
+    class OwnController(Controller):
+        def __init__(self, time_delay=5):
+            super(OwnController, self).__init__()
+
+        def simulator_init(self):
+            pass
+
+        def real_robot_init(self):
+            pass
+
+        def read_control_file(self, path):
+            pass
+
+        def run_simulator(self,commands):
+            pass
+
+        def back_init_state_simulator(self):
+            pass
+
+        def run_real_robot(self, commands):
+            pass
+
+        def update_init_state(self):
+            pass
